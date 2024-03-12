@@ -1,0 +1,49 @@
+.social_icon {
+    
+  list-style: none;
+  display: flex;
+  gap: 2%;
+  color: #1f1f21;
+  margin-left: 4rem;
+ 
+  
+} 
+
+.social_icon .iconlist .icons {
+  color: black;
+  font-size: 20px;
+  background-color: #fff;
+  position: relative;
+  display: block;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0 2px 5px 0 white;
+  padding: 5%;
+  border: 2px solid rgb(68, 156, 238);
+}
+
+.social_icon .iconlist .icons:hover {
+  transform: translateY(0, 10%);
+}
+
+.social_icon .iconlist:nth-child(1) .icons:hover {
+  background-color: rgb(247, 17, 208);
+  box-shadow: 0 2px 5px 0 rgb(247, 17, 208);
+}
+
+.social_icon .iconlist:nth-child(2) .icons:hover {
+  background-color: rgb(60, 132, 240);
+  box-shadow: 0 2px 5px 0 rgb(60, 132, 240);
+}
+
+.social_icon .iconlist:nth-child(3) .icons:hover {
+  background-color: #097054;
+  box-shadow: 0 2px 5px 0 #097054;
+}
+
+.social_icon .iconlist:nth-child(4) .icons:hover {
+  background-color: rgb(0, 102, 255);
+  box-shadow: 0 2px 5px 0 rgb(0, 102, 255);
+}
