@@ -7,7 +7,7 @@ import Education from "./Components/Education/Education";
 import Skills from "./Components/Skills/Skills";
 import Projects from "./Components/Projects/Projects";
 import Contact from "./Components/Contact/Contact";
-
+import './App.css'
 function App() {
   return (
     <>

@@ -1,0 +1,15 @@
+.nav-text {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  text-decoration: none; /* Remove default underline */
+  color: black;
+}
+
+.nav-text:hover {
+  color: red;
+}
+
+/* .nav-text.home {
+  color: red;
+} */
+

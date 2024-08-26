@@ -1,49 +1,77 @@
-.social_icon {
-    
-  list-style: none;
-  display: flex;
-  gap: 2%;
-  color: #1f1f21;
-  margin-left: 4rem;
- 
-  
-} 
+body{
+  background: #ffffff;
+}
+.homehead{
+  font-family: "Nunito", sans-serif;
+  font-weight: 350;
+}
 
-.social_icon .iconlist .icons {
+.homerole{
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+}
+
+.homepara{
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+}
+
+.button1{
+  background-color: skyblue;
+  border: none;
   color: black;
-  font-size: 20px;
-  background-color: #fff;
-  position: relative;
-  display: block;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  text-align: center;
-  box-shadow: 0 2px 5px 0 white;
-  padding: 5%;
-  border: 2px solid rgb(68, 156, 238);
+  box-shadow: 0px 1px 12px rgb(73, 72, 75);
 }
 
-.social_icon .iconlist .icons:hover {
-  transform: translateY(0, 10%);
+.button:hover{
+  background-color: #75d5fc;
+  box-shadow: 0px 1px 12px rgb(73, 72, 75);
 }
 
-.social_icon .iconlist:nth-child(1) .icons:hover {
-  background-color: rgb(247, 17, 208);
-  box-shadow: 0 2px 5px 0 rgb(247, 17, 208);
+.homecv{
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  color: black;
 }
 
-.social_icon .iconlist:nth-child(2) .icons:hover {
-  background-color: rgb(60, 132, 240);
-  box-shadow: 0 2px 5px 0 rgb(60, 132, 240);
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
-.social_icon .iconlist:nth-child(3) .icons:hover {
-  background-color: #097054;
-  box-shadow: 0 2px 5px 0 #097054;
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
-.social_icon .iconlist:nth-child(4) .icons:hover {
-  background-color: rgb(0, 102, 255);
-  box-shadow: 0 2px 5px 0 rgb(0, 102, 255);
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
+
+.animate-from-left {
+  animation: slideInLeft 1s ease forwards;
+}
+
+.animate-from-right {
+  animation: slideInRight 1s ease forwards;
+}
+
+
+

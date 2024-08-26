@@ -1,0 +1,36 @@
+.edupara {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
+
+.cardin {
+  transform: scale(1) translateZ(0);
+  transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border-radius: 8px;
+  box-shadow: 2px 5px 10px rgba(4, 7, 10, 0.1);
+  opacity: 0;
+  animation: fadeInCard 0.8s forwards;
+  backface-visibility: hidden;
+}
+
+.cardin:hover {
+  transform: scale(1.1) translateZ(50px);
+  box-shadow: 2px 10px 20px rgba(4, 7, 10, 0.3);
+}
+
+@keyframes fadeInCard {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .cardin {
+    width: 100% !important;
+  }
+}

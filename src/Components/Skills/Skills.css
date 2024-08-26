@@ -1,0 +1,12 @@
+.skill-text{
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+}
+
+@keyframes progressBarAnimation {
+    0% { width: 0; }
+  }
+  
+  .progress-bar-animation {
+    animation: progressBarAnimation 2s ease-in-out forwards;
+  }

@@ -1,0 +1,78 @@
+.project_link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  animation: colorBlink 1s infinite;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.project_link:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.project {
+  animation: fadeIn 1s ease-in-out;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.project:hover {
+  transform: translateY(-10px); /* Move up slightly on hover */
+  opacity: 0.9; /* Slightly reduce opacity on hover */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes colorBlink {
+  0% {
+    color: black;
+  }
+  25% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  75% {
+    color: green;
+  }
+  100% {
+    color: black;
+  }
+}
+
+.project-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+  .project-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.container {
+  opacity: 0;
+  animation: fadeInContainer 1.5s forwards; /* Delay the appearance of the container */
+}
+
+@keyframes fadeInContainer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
