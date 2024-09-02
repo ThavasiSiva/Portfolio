@@ -7,11 +7,12 @@ import sboy from '../../assests/sboy.jpg';
 import schoolboy from "../../assests/schoolboy.avif";
 import tallboy from '../../assests/tallboy.avif';
 import './Education.css';
+import Projects from "../Projects/Projects";
 
 function Education() {
   return (
     <>
-      <Container fluid>
+      <Container fluid className="mb-3">
         <Row>
           <Col md={12} xs={12}>
             <h1 className="text-center mt-1 display-5" style={{ textDecoration: "underline" }}>
@@ -58,6 +59,7 @@ function Education() {
           </Col>
         </Row>
       </Container>
+
     </>
   );
 }

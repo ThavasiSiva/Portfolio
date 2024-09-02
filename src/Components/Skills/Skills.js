@@ -78,9 +78,9 @@ function Skills() {
             
           </div>
           <div>
-            <ProgressBar animated variant="primary" now={80} style={{ width: '100%'}} className="progress-bar-animation"/>
+            <ProgressBar animated variant="primary" now={70} style={{ width: '100%'}} className="progress-bar-animation"/>
           </div>
-          <div className='mt-1 d-flex align-items-center'>80%</div>
+          <div className='mt-1 d-flex align-items-center'>70%</div>
         </Col>
         
       </Row>

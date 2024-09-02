@@ -1,6 +1,7 @@
 body{
   background: #ffffff;
 }
+
 .homehead{
   font-family: "Nunito", sans-serif;
   font-weight: 350;
@@ -73,5 +74,8 @@ body{
   animation: slideInRight 1s ease forwards;
 }
 
-
+/* Ensure the parent container doesn't allow overflow */
+.container, .row, .col {
+  overflow: hidden; /* Prevent overflow during the animation */
+}
 

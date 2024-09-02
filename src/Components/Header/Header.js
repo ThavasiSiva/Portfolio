@@ -14,7 +14,7 @@ function Header() {
           <Navbar.Brand href="#home" className="text-black">Mahi Siva</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end ">
-            <Nav className="me-md-1 gap-md-3">
+            <Nav className="me-md-1 gap-md-3 nav_items">
             <Nav.Link  href="/" className="nav-text">Home</Nav.Link>
             <Nav.Link href="/about" className="nav-text">About</Nav.Link>
             <Nav.Link href="/education" className="nav-text">Education</Nav.Link>

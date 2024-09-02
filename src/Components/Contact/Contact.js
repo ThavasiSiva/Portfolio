@@ -73,7 +73,7 @@ function Contact() {
 
   return (
     <>
-      <Container className="contact-container">
+      <Container className="contact-container mb-2">
         <Row>
           <Col md={12} xs={12} className="contact-form-field">
             <h1
